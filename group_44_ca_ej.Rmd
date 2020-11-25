@@ -17,3 +17,8 @@ ces <- read_csv(here("data", "ces3demographics.csv")) %>%
   clean_names()
 ```
 
+```{r}
+ggplot(data = ces)+
+  geom_point(aes(white_percent, ces_3_0_score))
+```
+
