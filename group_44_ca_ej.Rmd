@@ -27,3 +27,5 @@ ggplot(data = ces)+
   theme_minimal()
 ```
 
+This exploratory graph shows an overall trend that as the percent of white residents in a community increases there is a lower CalEnviroScreen 3.0 score. This means that neighborhoods with less white residents are more exposed to and effected by pollution burdens and other socioeconomic and health factors.
+
